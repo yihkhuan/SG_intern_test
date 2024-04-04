@@ -14,7 +14,7 @@ for pulse in pulses:
     waveform, time_array = generate_waveform(pulse)
     plt.scatter(time_array, waveform)
     plt.grid()
-    plt.xlabel("TIme [seconds]")
+    plt.xlabel("Time [seconds]")
     plt.ylabel("Amplitude")
     plt.tight_layout()
     plt.show()

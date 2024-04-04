@@ -11,7 +11,7 @@ SAMPLING_RATE = 5898.24E6
 NS_UNIT = 1E-9
 MHZ_UNIT = 1E6
 
-def generate_waveform(pulse: Pulse) -> Tuple(np.ndarray, np.ndarray):
+def generate_waveform(pulse: Pulse) -> Tuple[np.ndarray, np.ndarray]:
     """This function generates a waveform array and time sampling point for the given pulse.
     """
     pass
